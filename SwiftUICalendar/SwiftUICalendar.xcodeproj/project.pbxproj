@@ -15,6 +15,7 @@
 		F19798F524E1D0560058A916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19798F324E1D0560058A916 /* LaunchScreen.storyboard */; };
 		F197990024E1D0560058A916 /* SwiftUICalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19798FF24E1D0560058A916 /* SwiftUICalendarTests.swift */; };
 		F197990B24E1D0560058A916 /* SwiftUICalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F197990A24E1D0560058A916 /* SwiftUICalendarUITests.swift */; };
+		F197991924E1D12E0058A916 /* CalenderControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F197991824E1D12E0058A916 /* CalenderControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F197990624E1D0560058A916 /* SwiftUICalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F197990A24E1D0560058A916 /* SwiftUICalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICalendarUITests.swift; sourceTree = "<group>"; };
 		F197990C24E1D0560058A916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F197991824E1D12E0058A916 /* CalenderControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F19798E824E1D0550058A916 /* AppDelegate.swift */,
 				F19798EA24E1D0550058A916 /* SceneDelegate.swift */,
 				F19798EC24E1D0550058A916 /* ContentView.swift */,
+				F197991824E1D12E0058A916 /* CalenderControler.swift */,
 				F19798EE24E1D0560058A916 /* Assets.xcassets */,
 				F19798F324E1D0560058A916 /* LaunchScreen.storyboard */,
 				F19798F624E1D0560058A916 /* Info.plist */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F197991924E1D12E0058A916 /* CalenderControler.swift in Sources */,
 				F19798E924E1D0550058A916 /* AppDelegate.swift in Sources */,
 				F19798EB24E1D0550058A916 /* SceneDelegate.swift in Sources */,
 				F19798ED24E1D0550058A916 /* ContentView.swift in Sources */,
